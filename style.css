@@ -1,0 +1,34 @@
+body{
+     background-color: cadetblue;
+}
+#happy{
+     color:crimson;
+}
+label{
+       font-size: 30px;
+       color:greenyellow;
+  }
+button{
+     font-size:20px;
+     height:50px;
+}
+.btn-success:hover{
+   background-color:crimson;
+}
+.btn-info:hover{
+     background-color:blueviolet;
+  }
+canvas{
+     animation-name:example;
+     animation-duration: 4s;
+     animation-iteration-count:infinite;
+     border: 4px black solid;
+}
+@keyframes example{
+     from{
+          box-shadow:1px 1px 38px red;
+     }
+     to{
+          box-shadow:1px 1px 38px yellow;
+     }
+}
